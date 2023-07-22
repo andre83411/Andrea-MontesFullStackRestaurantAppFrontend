@@ -36,7 +36,6 @@ const QUERY = gql`
 `;
 
 function RestaurantCard({ data }) {
-  const awsS3BucketURL = 'https://andrea-montes-restaurant-strapi1.s3.us-west-1.amazonaws.com';
   return (
     <div className="w-full md:w-1/2 lg:w-1/3 p-4">
      <div className="h-full bg-gray-100 rounded-2xl">
