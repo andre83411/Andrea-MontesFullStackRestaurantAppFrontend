@@ -1,15 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: "http",
-        hostname: "localhost",
-        port: "1337",
-        pathname: "/uploads/**",
-      },
-    ],
+    domains: ['andrea-montes-restaurant-strapi1.s3.us-west-1.amazonaws.com'], // Replace 'your-bucket-name' with your actual AWS bucket name
   },
 };
 
